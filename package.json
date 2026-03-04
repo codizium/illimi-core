@@ -1,0 +1,37 @@
+{
+  "name": "@illimi/core",
+  "version": "1.0.0",
+  "description": "Core library for illimi framework - Virtual DOM and Reactivity System",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+  "build": "tsc"
+},
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Rapha Panchi",
+      "email": "raphapanchi@gmail.com",
+      "url": "https://github.com/ralphxp"
+    },
+    {
+      "name": "Codizium Team",
+      "email": "hell.codizium@gmail.com",
+      "url": "https://github.com/codizium"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:codizium/illimi-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codizium/illimi-core/issues"
+  },
+  "homepage": "https://github.com/codizium/illimi-core#readme"
+
+
+}
