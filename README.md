@@ -1,10 +1,10 @@
-# FeedJS Core
+# Illimi Core
 
-FeedJS Core is the heart of the FeedJS template engine. It provides the parser, AST (Abstract Syntax Tree), IR (Intermediate Representation), and VDOM (Virtual DOM) components needed to compile and render templates.
+Illimi Core is the heart of the Illimi template engine. It provides the parser, AST (Abstract Syntax Tree), IR (Intermediate Representation), and VDOM (Virtual DOM) components needed to compile and render templates.
 
 ## Features
 
-- **HTML Parser**: Parses `.feedjs.html` templates into an AST
+- **HTML Parser**: Parses `.illimi.html` templates into an AST
 - **Template Directives**: Built-in support for:
   - `f-if` / `f-else` - Conditional rendering
   - `f-for` - List rendering with iteration
@@ -96,7 +96,7 @@ const vnode = createVDOM(ir, { title: 'Hello', message: 'World', items: [{ name:
 
 #### Layouts
 
-**Layout file (layout.feedjs.html):**
+**Layout file (layout.illimi.html):**
 ```html
 <header>
   <h1>My App</h1>
@@ -105,13 +105,13 @@ const vnode = createVDOM(ir, { title: 'Hello', message: 'World', items: [{ name:
   <slot></slot>
 </main>
 <footer>
-  &copy; 2024
+  &copy; 2026
 </footer>
 ```
 
-**Page file (page.feedjs.html):**
+**Page file (page.illimi.html):**
 ```html
-<layout src="./layout.feedjs.html">
+<layout src="./layout.illimi.html">
   <p>This content goes into the slot!</p>
 </layout>
 ```
